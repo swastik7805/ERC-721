@@ -1,0 +1,44 @@
+:root {
+  --vp-c-brand-1: #8a2be2; /* Blue Violet */
+  --vp-c-brand-2: #9370db; /* Medium Slate Blue */
+  --vp-c-brand-3: #ba55d1; /* Medium Orchid */
+  --vp-c-brand-soft: rgba(138, 43, 226, 0.1);
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #ffd700);
+}
+
+.dark {
+  --vp-c-brand-1: #ba55d1;
+  --vp-c-brand-2: #da70d6;
+  --vp-c-brand-3: #ee82ee;
+  --vp-c-brand-soft: rgba(218, 112, 214, 0.1);
+}
+
+/* Custom transitions and glassmorphism effects */
+.VPNavBar {
+  backdrop-filter: blur(8px);
+  background-color: var(--vp-nav-bg-color) !important;
+}
+
+.VPFeature {
+  border: 1px solid var(--vp-c-bg-soft);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.VPFeature:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Code block styling */
+div[class*='language-'] {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Typography enhancement */
+h1, h2, h3, h4 {
+  letter-spacing: -0.02em;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "erc-721",
+  "version": "1.0.0",
+  "description": "NFTs and ERC-721 standard",
+  "keywords": [
+    "blockchain",
+    "web3",
+    "nft",
+    "decentralized",
+    "erc-721",
+    "ethereum"
+  ],
+  "homepage": "https://github.com/swastik7805/ERC-721#readme",
+  "bugs": {
+    "url": "https://github.com/swastik7805/ERC-721/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swastik7805/ERC-721.git"
+  },
+  "license": "ISC",
+  "author": "Swastik Sharma",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.32"
+  }
+}
