@@ -3,9 +3,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "ERC-721 Standard",
   description: "The complete guide to the Ethereum NFT standard.",
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/nft-tag.svg' }]],
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/nft-tag.svg',
     nav: [
       { text: 'Guide', link: '/guide/' },
       { text: 'Basics', link: '/guide/basics' },
@@ -39,7 +39,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the ISC License.',
-      copyright: 'Copyright © 2026-present Swastik Sharma'
+      copyright: 'Copyright © 2026 Swastik Sharma'
     },
     search: {
       provider: 'local'
